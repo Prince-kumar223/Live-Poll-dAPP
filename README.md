@@ -70,3 +70,11 @@ The requested commit sequence for a fresh repo is:
 - The contract emits a `vote` event on every successful vote.
 - The deploy scripts expect `cargo`, `soroban`, and a configured `SOROBAN_SOURCE_ACCOUNT`.
 - Replace the placeholder demo link, contract address, transaction hash, and screenshot after deployment.
+
+#SCREENSHOT
+1) wallet options available:
+![alt text](<Screenshot 2026-04-25 003719.png>)
+2) Deployed contract address:-
+![alt text](<Screenshot 2026-04-25 003640.png>)
+3)Transaction hash of a contract call :-
+![alt text](<Screenshot 2026-04-23 200104.png>)
