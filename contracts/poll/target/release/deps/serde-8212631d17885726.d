@@ -1,0 +1,14 @@
+C:\Desktop\Live Poll dAPP\contracts\poll\target\release\deps\serde-8212631d17885726.d: C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Desktop\Live\ Poll\ dAPP\contracts\poll\target\release\build\serde-d78dc53213ebd1bb\out/private.rs
+
+C:\Desktop\Live Poll dAPP\contracts\poll\target\release\deps\libserde-8212631d17885726.rlib: C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Desktop\Live\ Poll\ dAPP\contracts\poll\target\release\build\serde-d78dc53213ebd1bb\out/private.rs
+
+C:\Desktop\Live Poll dAPP\contracts\poll\target\release\deps\libserde-8212631d17885726.rmeta: C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Desktop\Live\ Poll\ dAPP\contracts\poll\target\release\build\serde-d78dc53213ebd1bb\out/private.rs
+
+C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\Prince\ Kumar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Desktop\Live\ Poll\ dAPP\contracts\poll\target\release\build\serde-d78dc53213ebd1bb\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Desktop\\Live Poll dAPP\\contracts\\poll\\target\\release\\build\\serde-d78dc53213ebd1bb\\out
