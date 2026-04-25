@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  color: #eef2ff;
+  background-color: #060816;
+  font-family: "Inter", "Segoe UI Variable", "Segoe UI", sans-serif;
+  --bg-base: #060816;
+  --bg-elevated: rgba(11, 15, 34, 0.78);
+  --bg-elevated-strong: rgba(16, 20, 44, 0.92);
+  --panel-border: rgba(143, 158, 255, 0.2);
+  --panel-border-strong: rgba(154, 167, 255, 0.34);
+  --text-main: #eef2ff;
+  --text-muted: #95a0c6;
+  --text-soft: #647096;
+  --accent-primary: #8b5cf6;
+  --accent-secondary: #22d3ee;
+  --accent-success: #36f3b5;
+  --accent-warning: #f59e0b;
+  --accent-danger: #fb7185;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at 12% 14%, rgba(72, 94, 255, 0.28), transparent 24%),
+    radial-gradient(circle at 82% 18%, rgba(26, 214, 255, 0.16), transparent 22%),
+    radial-gradient(circle at 55% 100%, rgba(139, 92, 246, 0.2), transparent 34%),
+    linear-gradient(180deg, #080b19 0%, #050712 54%, #03050c 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3,
+.display-font {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+}
+
+.app-shell {
+  position: relative;
+}
+
+.app-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 54px 54px;
+  mask-image: radial-gradient(circle at center, black 38%, transparent 88%);
+  opacity: 0.35;
+}
+
+.app-shell::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(114, 85, 255, 0.22), transparent 26%),
+    radial-gradient(circle at 100% 35%, rgba(34, 211, 238, 0.12), transparent 24%);
+}
+
+.panel-shell {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--panel-border);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.015)),
+    linear-gradient(180deg, rgba(9, 12, 28, 0.9), rgba(8, 10, 24, 0.82));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 0 0 1px rgba(100, 116, 255, 0.04),
+    0 28px 80px rgba(2, 6, 23, 0.6);
+  backdrop-filter: blur(24px);
+}
+
+.panel-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at top left, rgba(139, 92, 246, 0.14), transparent 34%),
+    linear-gradient(120deg, transparent 0%, rgba(34, 211, 238, 0.05) 100%);
+}
+
+.panel-shell::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.neo-pill {
+  border: 1px solid rgba(144, 161, 255, 0.22);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 10px 30px rgba(8, 12, 32, 0.28);
+  backdrop-filter: blur(18px);
+}
+
+.neo-button {
+  border: 1px solid rgba(126, 145, 255, 0.22);
+  background: linear-gradient(135deg, rgba(84, 95, 255, 0.16), rgba(34, 211, 238, 0.12));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 16px 40px rgba(41, 66, 255, 0.24);
+}
+
+.neo-button:hover {
+  border-color: var(--panel-border-strong);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 18px 46px rgba(69, 94, 255, 0.34);
+}
+
+.neon-text {
+  text-shadow: 0 0 24px rgba(121, 96, 255, 0.28);
+}
+
+.glow-ring {
+  box-shadow:
+    0 0 0 1px rgba(162, 177, 255, 0.12),
+    0 0 28px rgba(95, 96, 255, 0.14);
+}
